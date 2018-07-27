@@ -2,7 +2,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # General Dev Stuff
-sudo apt install vim git htop zsh wget curl
+sudo apt install vim git htop zsh wget curl tig
 
 # Snapcraft
 sudo apt install snapd
@@ -39,4 +39,4 @@ done
 mkdir ~/Projects
 mkdir ~/Sandbox
 
-
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
