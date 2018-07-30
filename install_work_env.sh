@@ -4,6 +4,11 @@ sudo apt upgrade -y
 # General Dev Stuff
 sudo apt install vim git htop zsh wget curl tig
 
+# Java ☕👴
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
 # Snapcraft
 sudo apt install snapd
 
